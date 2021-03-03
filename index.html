@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="shoes, store, shoes store, shoes-store, Shoes-Store">
+    <meta name="description" content="Shoes Store">
+    <meta name="author" content="Brandon Alexis">
+    <title>Shoes Store</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icons-style.css">
+    <link rel="stylesheet" href="css/loading-style.css">
+</head>
+<body>
+    <div id="loading">
+        <div class="bx__loading">
+            <div class="loading__obj"></div>
+            <div class="loading__obj"></div>
+            <div class="loading__obj"></div>
+            <div class="loading__obj"></div>
+            <div class="loading__obj"></div>
+            <div class="loading__obj"></div>
+            <div class="loading__obj"></div>
+        </div>
+    </div>
+    <!-- Estructura Barra de Navegacion -->
+    <nav class="nav">
+        <div class="nav__logo">
+            <img src="img/logo.png" alt="Logo - Shoes Store">
+            <h4>Shoes Store</h4>
+        </div>
+        <div class="nav__links">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#catalogo">Catalogo</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+            </ul>
+        </div>
+
+        <!-- toogle - navbar responsive -->
+        <div class="nav__toogle" onclick="Toogle();">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </div>
+    </nav>
+
+    <!-- Estructura Section Inicio -->
+    <section>
+        <header id="inicio">
+            <div class="header__content">
+                <h1>Shoes Store</h1>
+                <div class="content__icons">
+                    <div class="icon">
+                        <img src="icons/bx-show-alt.svg" alt="icono - ojo">
+                    </div>
+                    <div class="icon">
+                        <img src="icons/bxs-cart-add.svg" alt="icono - carrito de compras">
+                    </div>
+                    <div class="icon">
+                        <img src="icons/bx-coin.svg" alt="icono - moneda">
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <!-- Estructura SEction Nosotros -->
+    <section>
+        <div class="nosotros" id="nosotros">
+            <div class="content">
+                <h2>Shoes Store</h2>
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit aliquam quaerat architecto qui adipisci in molestias error ipsam fuga maxime dolor exercitationem voluptas, aut illum a? Quae laboriosam nihil eaque!
+                Sed vel minus aliquam voluptatibus perferendis quas cum facere eos illo totam dolor facilis incidunt, nostrum dignissimos expedita accusantium non dolores fugiat laboriosam labore laudantium maxime error. Sequi, saepe minus.
+                In corporis assumenda non maiores, minus repellendus odit? Ad esse doloribus repellendus facere tempora nihil neque quisquam temporibus iusto est iste, maxime repellat atque omnis eaque, vel rerum voluptate ex!
+                </p>
+                <div class="content__img">
+                    <img src="img/imagen (13).jpg" alt="Imagen contenido">
+                </div>
+            </div>
+
+            <ul class="listas">
+                <div class="title__listas">
+                    <h2>Nuestros Sitios de ventas</h2>
+                    <h6>Nacional</h6>
+                </div>
+                <li>
+                    <div class="button__list" onclick="Click_list(0);">
+                        <span>
+                            <i class="fas fa-caret-up"></i>
+                        </span>
+                    </div>
+                    <div class="info__list">
+                        <h2>Colombia</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut delectus ipsa eum enim velit doloremque! Dicta totam eius nulla est aperiam vitae reprehenderit dignissimos qui. Laudantium ex autem cumque magni.
+                        Obcaecati recusandae expedita maiores, nulla nostrum a sunt. Nesciunt animi, architecto blanditiis illo voluptatum quibusdam fuga id, deleniti sed qui odio laborum obcaecati perferendis necessitatibus incidunt quia. Perferendis, sint similique!</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="button__list" onclick="Click_list(1);">
+                        <span>
+                            <i class="fas fa-caret-up"></i>
+                        </span>
+                    </div>
+                    <div class="info__list">
+                        <h2>Mexico</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut delectus ipsa eum enim velit doloremque! Dicta totam eius nulla est aperiam vitae reprehenderit dignissimos qui. Laudantium ex autem cumque magni.
+                        Obcaecati recusandae expedita maiores, nulla nostrum a sunt. Nesciunt animi, architecto blanditiis illo voluptatum quibusdam fuga id, deleniti sed qui odio laborum obcaecati perferendis necessitatibus incidunt quia. Perferendis, sint similique!</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="button__list" onclick="Click_list(2);">
+                        <span>
+                            <i class="fas fa-caret-up"></i>
+                        </span>
+                    </div>
+                    <div class="info__list">
+                        <h2>España</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut delectus ipsa eum enim velit doloremque! Dicta totam eius nulla est aperiam vitae reprehenderit dignissimos qui. Laudantium ex autem cumque magni.
+                        Obcaecati recusandae expedita maiores, nulla nostrum a sunt. Nesciunt animi, architecto blanditiis illo voluptatum quibusdam fuga id, deleniti sed qui odio laborum obcaecati perferendis necessitatibus incidunt quia. Perferendis, sint similique!</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="button__list" onclick="Click_list(3);">
+                        <span>
+                            <i class="fas fa-caret-up"></i>
+                        </span>
+                    </div>
+                    <div class="info__list">
+                        <h2>Japon</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut delectus ipsa eum enim velit doloremque! Dicta totam eius nulla est aperiam vitae reprehenderit dignissimos qui. Laudantium ex autem cumque magni.
+                        Obcaecati recusandae expedita maiores, nulla nostrum a sunt. Nesciunt animi, architecto blanditiis illo voluptatum quibusdam fuga id, deleniti sed qui odio laborum obcaecati perferendis necessitatibus incidunt quia. Perferendis, sint similique!</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="button__list" onclick="Click_list(4);">
+                        <span>
+                            <i class="fas fa-caret-up"></i>
+                        </span>
+                    </div>
+                    <div class="info__list">
+                        <h2>Estados Unidos</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut delectus ipsa eum enim velit doloremque! Dicta totam eius nulla est aperiam vitae reprehenderit dignissimos qui. Laudantium ex autem cumque magni.
+                        Obcaecati recusandae expedita maiores, nulla nostrum a sunt. Nesciunt animi, architecto blanditiis illo voluptatum quibusdam fuga id, deleniti sed qui odio laborum obcaecati perferendis necessitatibus incidunt quia. Perferendis, sint similique!</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Estructura Section Catalogo -->
+    <section>
+        <div class="catalogo" id="catalogo">
+            <div class="catalogo__title">
+                <h1>Catalogo de Zapatos</h1>
+                <h6>Shoes Store</h6>
+            </div>
+            <div class="catalogo__imgs">
+                <div class="catalogo__img">
+                    <img src="img/imagen (1).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (3).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (4).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (6).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (7).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (8).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (9).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (11).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (12).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (14).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (15).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (16).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (17).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (5).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+                <div class="catalogo__img">
+                    <img src="img/imagen (2).jpg" alt="imagen zapatos" class="img_show">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contactos" id="contactos">
+            <div class="contactos_title">
+                <h1>contactos</h1>
+            </div>
+            <div class="contactos_info">
+                <div class="box_links">
+                    <ul>
+                        <li><a href="">Nuestras marcas</a></li>
+                        <li><a href="">Nuestro asociados</a></li>
+                        <li><a href="">Nuestro mercados</a></li>
+                        <li><a href="">Nuestros Catalogos</a></li>
+                        <li><a href="">Nuestros precios</a></li>
+                        <li><a href="">Nuestos beneficios</a></li>
+                        <li><a href="">Nuestras estadisticas</a></li>
+                    </ul>
+                </div>
+                <div class="box_links">
+                    <ul>
+                        <li><a href="">Nuestras marcas</a></li>
+                        <li><a href="">Nuestro asociados</a></li>
+                        <li><a href="">Nuestro mercados</a></li>
+                        <li><a href="">Nuestros Catalogos</a></li>
+                        <li><a href="">Nuestros precios</a></li>
+                        <li><a href="">Nuestos beneficios</a></li>
+                        <li><a href="">Nuestras estadisticas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contactos_social">
+                <div class="social_bx">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="social_bx">
+                    <i class="fab fa-twitter"></i> 
+                </div>
+                <div class="social_bx">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        
+    </script>
+    <script src="js/toogle_event.js"></script>
+    <script src="js/event_list.js"></script>
+   <script src="js/info__content.js"></script>
+   <script src="js/loading.js"></script>
+   <script src="js/event_catalogo.js"></script>
+</body>
+</html>
